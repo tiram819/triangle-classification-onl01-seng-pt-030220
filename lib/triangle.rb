@@ -9,8 +9,9 @@ def initialize(a1, a2, a3)
  def kind 
    if @a1 + @a2 < @a3 || @a1 + @a3 < @a2 || @a2 + @a3 < @a1 || (@a1 || @a2 || @a3) == 0
      begin
-  raise YourCustomError
+  raise TriangleError
 end
+else 
    if @a1 == @a2 && @a2 == @a3
    :equilateral
    elsif @a1 == @a2 && @a1 != @a3 || @a1 == @a3 && @a1 != @a2 || @a2 == @a3 && @a2 != @a1
