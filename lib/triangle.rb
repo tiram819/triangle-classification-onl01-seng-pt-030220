@@ -8,5 +8,6 @@ def initialize(a1, a2, a3)
  
  def kind 
    if a1 == a2 == a3
-   
+   :equilateral
+   elsif a1 == a2 && a1 
 end
