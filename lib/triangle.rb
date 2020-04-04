@@ -16,5 +16,7 @@ def initialize(a1, a2, a3)
  end
 end
 
-class TriangleError
+class TriangleError < StandardError
+    # triangle error code
+  end
 end
