@@ -15,4 +15,6 @@ def initialize(a1, a2, a3)
  :scalene
  end
 end
+
+class TriangleError
 end
