@@ -7,5 +7,6 @@ def initialize(a1, a2, a3)
  end 
  
  def kind 
-   @
+   if a1 == a2 == a3
+   
 end
